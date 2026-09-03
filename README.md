@@ -155,6 +155,11 @@ engineered so far — if you find a new endpoint or a discrepancy, a PR to
 [`discovery/endpoints.md`](./discovery/endpoints.md) plus a typed client
 method is the most useful contribution.
 
+Commits to `main` should follow [Conventional Commits](https://www.conventionalcommits.org/)
+(`feat: ...`, `fix: ...`, `docs: ...`, etc.) — [release-please](https://github.com/googleapis/release-please)
+uses them to generate the changelog and open release PRs automatically.
+Merging a release PR cuts a GitHub Release, which triggers the npm publish.
+
 ## License
 
 [MIT](./LICENSE)
