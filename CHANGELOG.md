@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/lukas-reining/spieler-plus-api-client/compare/v0.1.2...v0.1.3) (2026-09-03)
+
+
+### Bug Fixes
+
+* **ci:** publish to npm from release-please workflow directly ([02dc1f9](https://github.com/lukas-reining/spieler-plus-api-client/commit/02dc1f948eaa073e11d695c5a7945be74b081ff7))
+
 ## [0.1.2](https://github.com/lukas-reining/spieler-plus-api-client/compare/v0.1.1...v0.1.2) (2026-09-03)
 
 
