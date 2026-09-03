@@ -1,6 +1,6 @@
 {
   "name": "spieler-plus-api-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Unofficial TypeScript client for the SpielerPlus Teamfund (Teamkasse) REST API",
   "type": "module",
   "main": "./dist/index.js",
