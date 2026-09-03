@@ -1,0 +1,58 @@
+{
+  "name": "spieler-plus-api-client",
+  "version": "0.1.0",
+  "description": "Unofficial TypeScript client for the SpielerPlus Teamfund (Teamkasse) REST API",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/index.ts",
+    "smoke": "tsx scripts/smoke-test.ts",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukas-reining/spieler-plus-api-client.git"
+  },
+  "homepage": "https://github.com/lukas-reining/spieler-plus-api-client#readme",
+  "bugs": {
+    "url": "https://github.com/lukas-reining/spieler-plus-api-client/issues"
+  },
+  "author": "Lukas Reining",
+  "license": "MIT",
+  "keywords": [
+    "spielerplus",
+    "teamfund",
+    "teamkasse",
+    "api-client",
+    "unofficial"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "dependencies": {
+    "fetch-cookie": "^3.1.0",
+    "tough-cookie": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/tough-cookie": "^4.0.5",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
